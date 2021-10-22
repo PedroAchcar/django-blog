@@ -1,23 +1,8 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    {% if title %}
-        <title>Blog Django - {{ title }}</title>
-    {% else %}
-        <title>Meu Blog em Django</title>
-    {% endif %}
-</head>
-
-<body>
+{% extends "blog/base.html" %}
+{% block content %}
     {% for post in posts %}
         <h1>{{ post.title }}</h1>
         <p>Escrito por {{ post.author }} em {{ post.date_posted }}</p>
         <p>{{ post.content }}</p>
     {% endfor %}
-</body>
-
-</html>
+{% endblock content %}
