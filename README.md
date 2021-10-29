@@ -2,7 +2,7 @@
 <p>
 </p>
 
-> Blog somente em texto, feito no framework Django (Python) para aprendizado.
+> Blog somente em texto, feito no framework Django (Python) para aprendizado.<br/>
 > Text only blog, made in Django framework (Python) for learning.
 ## Author
 
