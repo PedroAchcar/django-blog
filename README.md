@@ -13,7 +13,8 @@
 
 ## Show your support
 
-Give a ⭐️ if this project helped you!
+Deixe uma ⭐️ se esse projeto te ajudou!<br/>
+Precisando de ajuda, pode me chamar!
 
 ***
 _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
